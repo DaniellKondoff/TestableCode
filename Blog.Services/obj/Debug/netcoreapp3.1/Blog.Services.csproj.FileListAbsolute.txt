@@ -1,0 +1,11 @@
+D:\Program Files\GitHub\RulesTestableCode\Blog.Services\obj\Debug\netcoreapp3.1\Blog.Services.csprojAssemblyReference.cache
+D:\Program Files\GitHub\RulesTestableCode\Blog.Services\obj\Debug\netcoreapp3.1\Blog.Services.AssemblyInfoInputs.cache
+D:\Program Files\GitHub\RulesTestableCode\Blog.Services\obj\Debug\netcoreapp3.1\Blog.Services.AssemblyInfo.cs
+D:\Program Files\GitHub\RulesTestableCode\Blog.Services\bin\Debug\netcoreapp3.1\Blog.Services.deps.json
+D:\Program Files\GitHub\RulesTestableCode\Blog.Services\bin\Debug\netcoreapp3.1\Blog.Services.dll
+D:\Program Files\GitHub\RulesTestableCode\Blog.Services\bin\Debug\netcoreapp3.1\Blog.Services.pdb
+D:\Program Files\GitHub\RulesTestableCode\Blog.Services\bin\Debug\netcoreapp3.1\Blog.Data.dll
+D:\Program Files\GitHub\RulesTestableCode\Blog.Services\bin\Debug\netcoreapp3.1\Blog.Data.pdb
+D:\Program Files\GitHub\RulesTestableCode\Blog.Services\obj\Debug\netcoreapp3.1\Blog.Services.csproj.CopyComplete
+D:\Program Files\GitHub\RulesTestableCode\Blog.Services\obj\Debug\netcoreapp3.1\Blog.Services.dll
+D:\Program Files\GitHub\RulesTestableCode\Blog.Services\obj\Debug\netcoreapp3.1\Blog.Services.pdb
