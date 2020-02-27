@@ -10,8 +10,10 @@
     {
         private readonly IArticleService articleService;
 
-        public HomeController()
-            => this.articleService = new ArticleService();
+        public HomeController(IArticleService articleService)
+        {
+            this.articleService = articleService;
+        }
 
         public async Task<IActionResult> Index()
         {

@@ -10231,11 +10231,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Test\\Blog.Test.csproj",
+      "projectUniqueName": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Test\\Blog.Test.csproj",
       "projectName": "Blog.Test",
-      "projectPath": "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Test\\Blog.Test.csproj",
+      "projectPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Test\\Blog.Test.csproj",
       "packagesPath": "C:\\Users\\Kondoff\\.nuget\\packages\\",
-      "outputPath": "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Test\\obj\\",
+      "outputPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Test\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -10255,8 +10255,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Web\\Blog.Web.csproj": {
-              "projectPath": "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Web\\Blog.Web.csproj"
+            "D:\\Program Files\\GitHub\\TestableCode\\Blog.Web\\Blog.Web.csproj": {
+              "projectPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Web\\Blog.Web.csproj"
             }
           }
         }

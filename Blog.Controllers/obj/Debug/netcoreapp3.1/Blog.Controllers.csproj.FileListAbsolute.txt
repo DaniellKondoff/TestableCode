@@ -11,3 +11,16 @@ D:\Program Files\GitHub\RulesTestableCode\Blog.Controllers\bin\Debug\netcoreapp3
 D:\Program Files\GitHub\RulesTestableCode\Blog.Controllers\obj\Debug\netcoreapp3.1\Blog.Controllers.csproj.CopyComplete
 D:\Program Files\GitHub\RulesTestableCode\Blog.Controllers\obj\Debug\netcoreapp3.1\Blog.Controllers.dll
 D:\Program Files\GitHub\RulesTestableCode\Blog.Controllers\obj\Debug\netcoreapp3.1\Blog.Controllers.pdb
+D:\Program Files\GitHub\TestableCode\Blog.Controllers\bin\Debug\netcoreapp3.1\Blog.Controllers.deps.json
+D:\Program Files\GitHub\TestableCode\Blog.Controllers\bin\Debug\netcoreapp3.1\Blog.Controllers.dll
+D:\Program Files\GitHub\TestableCode\Blog.Controllers\bin\Debug\netcoreapp3.1\Blog.Controllers.pdb
+D:\Program Files\GitHub\TestableCode\Blog.Controllers\bin\Debug\netcoreapp3.1\Blog.Data.dll
+D:\Program Files\GitHub\TestableCode\Blog.Controllers\bin\Debug\netcoreapp3.1\Blog.Services.dll
+D:\Program Files\GitHub\TestableCode\Blog.Controllers\bin\Debug\netcoreapp3.1\Blog.Services.pdb
+D:\Program Files\GitHub\TestableCode\Blog.Controllers\bin\Debug\netcoreapp3.1\Blog.Data.pdb
+D:\Program Files\GitHub\TestableCode\Blog.Controllers\obj\Debug\netcoreapp3.1\Blog.Controllers.csprojAssemblyReference.cache
+D:\Program Files\GitHub\TestableCode\Blog.Controllers\obj\Debug\netcoreapp3.1\Blog.Controllers.AssemblyInfoInputs.cache
+D:\Program Files\GitHub\TestableCode\Blog.Controllers\obj\Debug\netcoreapp3.1\Blog.Controllers.AssemblyInfo.cs
+D:\Program Files\GitHub\TestableCode\Blog.Controllers\obj\Debug\netcoreapp3.1\Blog.Controllers.csproj.CopyComplete
+D:\Program Files\GitHub\TestableCode\Blog.Controllers\obj\Debug\netcoreapp3.1\Blog.Controllers.dll
+D:\Program Files\GitHub\TestableCode\Blog.Controllers\obj\Debug\netcoreapp3.1\Blog.Controllers.pdb

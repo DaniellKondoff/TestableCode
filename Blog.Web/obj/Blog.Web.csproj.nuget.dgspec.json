@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Web\\Blog.Web.csproj": {}
+    "D:\\Program Files\\GitHub\\TestableCode\\Blog.Web\\Blog.Web.csproj": {}
   },
   "projects": {
-    "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Controllers\\Blog.Controllers.csproj": {
+    "D:\\Program Files\\GitHub\\TestableCode\\Blog.Controllers\\Blog.Controllers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Controllers\\Blog.Controllers.csproj",
+        "projectUniqueName": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Controllers\\Blog.Controllers.csproj",
         "projectName": "Blog.Controllers",
-        "projectPath": "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Controllers\\Blog.Controllers.csproj",
+        "projectPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Controllers\\Blog.Controllers.csproj",
         "packagesPath": "C:\\Users\\Kondoff\\.nuget\\packages\\",
-        "outputPath": "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Controllers\\obj\\",
+        "outputPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Controllers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -31,8 +31,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Services\\Blog.Services.csproj": {
-                "projectPath": "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Services\\Blog.Services.csproj"
+              "D:\\Program Files\\GitHub\\TestableCode\\Blog.Services\\Blog.Services.csproj": {
+                "projectPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Services\\Blog.Services.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Data\\Blog.Data.csproj": {
+    "D:\\Program Files\\GitHub\\TestableCode\\Blog.Data\\Blog.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Data\\Blog.Data.csproj",
+        "projectUniqueName": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Data\\Blog.Data.csproj",
         "projectName": "Blog.Data",
-        "projectPath": "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Data\\Blog.Data.csproj",
+        "projectPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Data\\Blog.Data.csproj",
         "packagesPath": "C:\\Users\\Kondoff\\.nuget\\packages\\",
-        "outputPath": "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Data\\obj\\",
+        "outputPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -139,14 +139,14 @@
         }
       }
     },
-    "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Services\\Blog.Services.csproj": {
+    "D:\\Program Files\\GitHub\\TestableCode\\Blog.Services\\Blog.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Services\\Blog.Services.csproj",
+        "projectUniqueName": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Services\\Blog.Services.csproj",
         "projectName": "Blog.Services",
-        "projectPath": "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Services\\Blog.Services.csproj",
+        "projectPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Services\\Blog.Services.csproj",
         "packagesPath": "C:\\Users\\Kondoff\\.nuget\\packages\\",
-        "outputPath": "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Services\\obj\\",
+        "outputPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -166,8 +166,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Data\\Blog.Data.csproj": {
-                "projectPath": "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Data\\Blog.Data.csproj"
+              "D:\\Program Files\\GitHub\\TestableCode\\Blog.Data\\Blog.Data.csproj": {
+                "projectPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Data\\Blog.Data.csproj"
               }
             }
           }
@@ -210,14 +210,14 @@
         }
       }
     },
-    "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Web\\Blog.Web.csproj": {
+    "D:\\Program Files\\GitHub\\TestableCode\\Blog.Web\\Blog.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Web\\Blog.Web.csproj",
+        "projectUniqueName": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Web\\Blog.Web.csproj",
         "projectName": "Blog.Web",
-        "projectPath": "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Web\\Blog.Web.csproj",
+        "projectPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Web\\Blog.Web.csproj",
         "packagesPath": "C:\\Users\\Kondoff\\.nuget\\packages\\",
-        "outputPath": "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Web\\obj\\",
+        "outputPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -237,14 +237,14 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Controllers\\Blog.Controllers.csproj": {
-                "projectPath": "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Controllers\\Blog.Controllers.csproj"
+              "D:\\Program Files\\GitHub\\TestableCode\\Blog.Controllers\\Blog.Controllers.csproj": {
+                "projectPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Controllers\\Blog.Controllers.csproj"
               },
-              "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Data\\Blog.Data.csproj": {
-                "projectPath": "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Data\\Blog.Data.csproj"
+              "D:\\Program Files\\GitHub\\TestableCode\\Blog.Data\\Blog.Data.csproj": {
+                "projectPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Data\\Blog.Data.csproj"
               },
-              "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Services\\Blog.Services.csproj": {
-                "projectPath": "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Services\\Blog.Services.csproj"
+              "D:\\Program Files\\GitHub\\TestableCode\\Blog.Services\\Blog.Services.csproj": {
+                "projectPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Services\\Blog.Services.csproj"
               }
             }
           }
