@@ -6,9 +6,9 @@
     using SixLabors.ImageSharp;
     using SixLabors.ImageSharp.Processing;
 
-    public static class ImageService
+    public class ImageService : IImageService
     {
-        public static async Task UpdateImage(
+        public async Task UpdateImage(
             string imageUrl, 
             string destination, 
             int? width = null,
@@ -35,7 +35,7 @@
             image.SaveAsJpeg(output);
         }
 
-        private static (int width, int height) CalculateOptimalSize(
+        private (int width, int height) CalculateOptimalSize(
             int? width,
             int? height,
             int originalWidth,

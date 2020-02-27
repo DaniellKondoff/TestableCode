@@ -1,6 +1,7 @@
 ﻿using Blog.Controllers;
 using Blog.Controllers.Models;
 using Blog.Services.Models;
+using Blog.Test.Extensions;
 using Blog.Test.Fake;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -27,24 +28,13 @@ namespace Blog.Test.Controllers
         [Fact]
         public void PrivacyShouldReturnViewResultWIthCorrectUserName()
         {
-            const string UserName = "TestUser";
-            var homeController = new HomeController(null);
-            homeController.ControllerContext = new ControllerContext
-            {
-                HttpContext = new DefaultHttpContext
-                {
-                    User = new ClaimsPrincipal(new ClaimsIdentity(new List<Claim>
-                    {
-                        new Claim(ClaimTypes.Name, UserName)
-                    }))
-                }
-            };
-
+            var homeController = new HomeController(null).WithTestUser();
+            
             var result = homeController.Privacy();
 
             var viewResult = Assert.IsType<ViewResult>(result);
             var model = Assert.IsType<PrivacyViewModel>(viewResult.Model);
-            Assert.Equal(UserName, model.Username);
+            Assert.Equal(TestConstants.TestUserName, model.Username);
         }
 
         [Fact]

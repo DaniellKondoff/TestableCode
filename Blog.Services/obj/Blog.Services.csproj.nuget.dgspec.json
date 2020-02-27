@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Services\\Blog.Services.csproj": {}
+    "D:\\Program Files\\GitHub\\TestableCode\\Blog.Services\\Blog.Services.csproj": {}
   },
   "projects": {
-    "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Data\\Blog.Data.csproj": {
+    "D:\\Program Files\\GitHub\\TestableCode\\Blog.Data\\Blog.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Data\\Blog.Data.csproj",
+        "projectUniqueName": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Data\\Blog.Data.csproj",
         "projectName": "Blog.Data",
-        "projectPath": "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Data\\Blog.Data.csproj",
+        "projectPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Data\\Blog.Data.csproj",
         "packagesPath": "C:\\Users\\Kondoff\\.nuget\\packages\\",
-        "outputPath": "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Data\\obj\\",
+        "outputPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -75,14 +75,14 @@
         }
       }
     },
-    "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Services\\Blog.Services.csproj": {
+    "D:\\Program Files\\GitHub\\TestableCode\\Blog.Services\\Blog.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Services\\Blog.Services.csproj",
+        "projectUniqueName": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Services\\Blog.Services.csproj",
         "projectName": "Blog.Services",
-        "projectPath": "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Services\\Blog.Services.csproj",
+        "projectPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Services\\Blog.Services.csproj",
         "packagesPath": "C:\\Users\\Kondoff\\.nuget\\packages\\",
-        "outputPath": "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Services\\obj\\",
+        "outputPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -102,8 +102,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Data\\Blog.Data.csproj": {
-                "projectPath": "D:\\Program Files\\GitHub\\RulesTestableCode\\Blog.Data\\Blog.Data.csproj"
+              "D:\\Program Files\\GitHub\\TestableCode\\Blog.Data\\Blog.Data.csproj": {
+                "projectPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Data\\Blog.Data.csproj"
               }
             }
           }

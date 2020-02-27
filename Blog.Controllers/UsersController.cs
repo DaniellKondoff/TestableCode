@@ -11,6 +11,12 @@
     {
         private const string UserImageDestination = @"Images\Users\{0}";
         private const string ImageContentType = "image/jpeg";
+        private readonly IImageService imageService;
+
+        public UsersController(IImageService imageService)
+        {
+            this.imageService = imageService;
+        }
 
         [Authorize]
         [HttpGet]
@@ -36,7 +42,7 @@
 
             var userImageDestination = string.Format(UserImageDestination, this.User.Identity.Name);
 
-            await ImageService.UpdateImage(pictureUrl, userImageDestination);
+            await this.imageService.UpdateImage(pictureUrl, userImageDestination);
 
             return this.Ok();
         }
