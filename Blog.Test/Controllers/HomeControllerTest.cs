@@ -3,11 +3,9 @@ using Blog.Controllers.Models;
 using Blog.Services.Models;
 using Blog.Test.Extensions;
 using Blog.Test.Fake;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Claims;
 using System.Threading.Tasks;
 using Xunit;
 

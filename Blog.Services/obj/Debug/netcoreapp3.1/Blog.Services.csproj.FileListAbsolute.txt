@@ -20,3 +20,14 @@ D:\Program Files\GitHub\TestableCode\Blog.Services\obj\Debug\netcoreapp3.1\Blog.
 D:\Program Files\GitHub\TestableCode\Blog.Services\obj\Debug\netcoreapp3.1\Blog.Services.csproj.CopyComplete
 D:\Program Files\GitHub\TestableCode\Blog.Services\obj\Debug\netcoreapp3.1\Blog.Services.dll
 D:\Program Files\GitHub\TestableCode\Blog.Services\obj\Debug\netcoreapp3.1\Blog.Services.pdb
+D:\MyCode\TestableCode\Blog.Services\bin\Debug\netcoreapp3.1\Blog.Services.deps.json
+D:\MyCode\TestableCode\Blog.Services\bin\Debug\netcoreapp3.1\Blog.Services.dll
+D:\MyCode\TestableCode\Blog.Services\bin\Debug\netcoreapp3.1\Blog.Services.pdb
+D:\MyCode\TestableCode\Blog.Services\bin\Debug\netcoreapp3.1\Blog.Data.dll
+D:\MyCode\TestableCode\Blog.Services\bin\Debug\netcoreapp3.1\Blog.Data.pdb
+D:\MyCode\TestableCode\Blog.Services\obj\Debug\netcoreapp3.1\Blog.Services.csprojAssemblyReference.cache
+D:\MyCode\TestableCode\Blog.Services\obj\Debug\netcoreapp3.1\Blog.Services.AssemblyInfoInputs.cache
+D:\MyCode\TestableCode\Blog.Services\obj\Debug\netcoreapp3.1\Blog.Services.AssemblyInfo.cs
+D:\MyCode\TestableCode\Blog.Services\obj\Debug\netcoreapp3.1\Blog.Services.csproj.CopyComplete
+D:\MyCode\TestableCode\Blog.Services\obj\Debug\netcoreapp3.1\Blog.Services.dll
+D:\MyCode\TestableCode\Blog.Services\obj\Debug\netcoreapp3.1\Blog.Services.pdb

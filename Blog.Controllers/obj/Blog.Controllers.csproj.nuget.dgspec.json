@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Program Files\\GitHub\\TestableCode\\Blog.Controllers\\Blog.Controllers.csproj": {}
+    "D:\\MyCode\\TestableCode\\Blog.Controllers\\Blog.Controllers.csproj": {}
   },
   "projects": {
-    "D:\\Program Files\\GitHub\\TestableCode\\Blog.Controllers\\Blog.Controllers.csproj": {
+    "D:\\MyCode\\TestableCode\\Blog.Controllers\\Blog.Controllers.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Controllers\\Blog.Controllers.csproj",
+        "projectUniqueName": "D:\\MyCode\\TestableCode\\Blog.Controllers\\Blog.Controllers.csproj",
         "projectName": "Blog.Controllers",
-        "projectPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Controllers\\Blog.Controllers.csproj",
-        "packagesPath": "C:\\Users\\Kondoff\\.nuget\\packages\\",
-        "outputPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Controllers\\obj\\",
+        "projectPath": "D:\\MyCode\\TestableCode\\Blog.Controllers\\Blog.Controllers.csproj",
+        "packagesPath": "C:\\Users\\daniel.kondov\\.nuget\\packages\\",
+        "outputPath": "D:\\MyCode\\TestableCode\\Blog.Controllers\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kondoff\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\daniel.kondov\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,13 +26,13 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://dotnet.myget.org/F/roslyn/api/v3/index.json": {}
+          "https://kdi.jfrog.io/kdi/api/nuget/nuget": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Program Files\\GitHub\\TestableCode\\Blog.Services\\Blog.Services.csproj": {
-                "projectPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Services\\Blog.Services.csproj"
+              "D:\\MyCode\\TestableCode\\Blog.Services\\Blog.Services.csproj": {
+                "projectPath": "D:\\MyCode\\TestableCode\\Blog.Services\\Blog.Services.csproj"
               }
             }
           }
@@ -68,20 +68,20 @@
         }
       }
     },
-    "D:\\Program Files\\GitHub\\TestableCode\\Blog.Data\\Blog.Data.csproj": {
+    "D:\\MyCode\\TestableCode\\Blog.Data\\Blog.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Data\\Blog.Data.csproj",
+        "projectUniqueName": "D:\\MyCode\\TestableCode\\Blog.Data\\Blog.Data.csproj",
         "projectName": "Blog.Data",
-        "projectPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Data\\Blog.Data.csproj",
-        "packagesPath": "C:\\Users\\Kondoff\\.nuget\\packages\\",
-        "outputPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Data\\obj\\",
+        "projectPath": "D:\\MyCode\\TestableCode\\Blog.Data\\Blog.Data.csproj",
+        "packagesPath": "C:\\Users\\daniel.kondov\\.nuget\\packages\\",
+        "outputPath": "D:\\MyCode\\TestableCode\\Blog.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kondoff\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\daniel.kondov\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,7 +90,7 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://dotnet.myget.org/F/roslyn/api/v3/index.json": {}
+          "https://kdi.jfrog.io/kdi/api/nuget/nuget": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -139,20 +139,20 @@
         }
       }
     },
-    "D:\\Program Files\\GitHub\\TestableCode\\Blog.Services\\Blog.Services.csproj": {
+    "D:\\MyCode\\TestableCode\\Blog.Services\\Blog.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Services\\Blog.Services.csproj",
+        "projectUniqueName": "D:\\MyCode\\TestableCode\\Blog.Services\\Blog.Services.csproj",
         "projectName": "Blog.Services",
-        "projectPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Services\\Blog.Services.csproj",
-        "packagesPath": "C:\\Users\\Kondoff\\.nuget\\packages\\",
-        "outputPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Services\\obj\\",
+        "projectPath": "D:\\MyCode\\TestableCode\\Blog.Services\\Blog.Services.csproj",
+        "packagesPath": "C:\\Users\\daniel.kondov\\.nuget\\packages\\",
+        "outputPath": "D:\\MyCode\\TestableCode\\Blog.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\Kondoff\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\daniel.kondov\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -161,13 +161,13 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {},
-          "https://dotnet.myget.org/F/roslyn/api/v3/index.json": {}
+          "https://kdi.jfrog.io/kdi/api/nuget/nuget": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Program Files\\GitHub\\TestableCode\\Blog.Data\\Blog.Data.csproj": {
-                "projectPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Data\\Blog.Data.csproj"
+              "D:\\MyCode\\TestableCode\\Blog.Data\\Blog.Data.csproj": {
+                "projectPath": "D:\\MyCode\\TestableCode\\Blog.Data\\Blog.Data.csproj"
               }
             }
           }

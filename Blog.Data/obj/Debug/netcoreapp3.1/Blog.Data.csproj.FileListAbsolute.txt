@@ -5,3 +5,11 @@ D:\Program Files\GitHub\RulesTestableCode\Blog.Data\obj\Debug\netcoreapp3.1\Blog
 D:\Program Files\GitHub\RulesTestableCode\Blog.Data\obj\Debug\netcoreapp3.1\Blog.Data.AssemblyInfo.cs
 D:\Program Files\GitHub\RulesTestableCode\Blog.Data\obj\Debug\netcoreapp3.1\Blog.Data.dll
 D:\Program Files\GitHub\RulesTestableCode\Blog.Data\obj\Debug\netcoreapp3.1\Blog.Data.pdb
+D:\MyCode\TestableCode\Blog.Data\bin\Debug\netcoreapp3.1\Blog.Data.deps.json
+D:\MyCode\TestableCode\Blog.Data\bin\Debug\netcoreapp3.1\Blog.Data.dll
+D:\MyCode\TestableCode\Blog.Data\bin\Debug\netcoreapp3.1\Blog.Data.pdb
+D:\MyCode\TestableCode\Blog.Data\obj\Debug\netcoreapp3.1\Blog.Data.AssemblyInfoInputs.cache
+D:\MyCode\TestableCode\Blog.Data\obj\Debug\netcoreapp3.1\Blog.Data.AssemblyInfo.cs
+D:\MyCode\TestableCode\Blog.Data\obj\Debug\netcoreapp3.1\Blog.Data.dll
+D:\MyCode\TestableCode\Blog.Data\obj\Debug\netcoreapp3.1\Blog.Data.pdb
+D:\MyCode\TestableCode\Blog.Data\obj\Debug\netcoreapp3.1\Blog.Data.csprojAssemblyReference.cache

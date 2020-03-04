@@ -1,10 +1,10 @@
 ﻿namespace Blog.Services
 {
+    using SixLabors.ImageSharp;
+    using SixLabors.ImageSharp.Processing;
     using System.IO;
     using System.Net;
     using System.Threading.Tasks;
-    using SixLabors.ImageSharp;
-    using SixLabors.ImageSharp.Processing;
 
     public class ImageService : IImageService
     {
@@ -22,7 +22,7 @@
 
             using var image = Image.Load(destination);
 
-            (int optimalWidth, int optimalHeight) = CalculateOptimalSize(
+            (int optimalWidth, int optimalHeight) = this.CalculateOptimalSize(
                 width, 
                 height, 
                 image.Width, 
@@ -35,7 +35,8 @@
             image.SaveAsJpeg(output);
         }
 
-        private (int width, int height) CalculateOptimalSize(
+        //Internal for unit test
+        internal (int width, int height) CalculateOptimalSize(
             int? width,
             int? height,
             int originalWidth,
