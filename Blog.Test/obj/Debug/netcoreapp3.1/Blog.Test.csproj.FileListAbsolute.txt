@@ -670,3 +670,4 @@ D:\MyCode\TestableCode\Blog.Test\obj\Debug\netcoreapp3.1\Blog.Test.AssemblyInfo.
 D:\MyCode\TestableCode\Blog.Test\obj\Debug\netcoreapp3.1\Blog.Test.csproj.CopyComplete
 D:\MyCode\TestableCode\Blog.Test\obj\Debug\netcoreapp3.1\Blog.Test.dll
 D:\MyCode\TestableCode\Blog.Test\obj\Debug\netcoreapp3.1\Blog.Test.pdb
+D:\MyCode\TestableCode\Blog.Test\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
