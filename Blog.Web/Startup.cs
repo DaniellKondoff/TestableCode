@@ -58,6 +58,7 @@
 
             services
                 .AddTransient<IImageService, ImageService>()
+                .AddTransient<IFileSystemService, FileSystemService>()
                 .AddTransient<IArticleService, ArticleService>();
 
             services
