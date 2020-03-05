@@ -1,6 +1,5 @@
 ﻿namespace Blog.Services
 {
-    using System;
     using AutoMapper;
     using AutoMapper.QueryableExtensions;
     using Data;
@@ -15,11 +14,13 @@
     {
         private readonly BlogDbContext db;
         private readonly IMapper mapper;
+        private readonly IDateTimeService dateTimeService;
 
-        public ArticleService(BlogDbContext database, IMapper mapper)
+        public ArticleService(BlogDbContext database, IMapper mapper, IDateTimeService dateTimeService)
         {
             this.db = database;
             this.mapper = mapper;
+            this.dateTimeService = dateTimeService;
         }
 
         public async Task<IEnumerable<ArticleListingServiceModel>> All(
@@ -135,7 +136,7 @@
 
             if (article.PublishedOn == null)
             {
-                article.PublishedOn = DateTime.UtcNow;    
+                article.PublishedOn = this.dateTimeService.Now();    
             }
 
             await this.db.SaveChangesAsync();

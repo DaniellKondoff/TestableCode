@@ -1,16 +1,17 @@
 ﻿using AutoMapper;
-using Blog.Data.Models;
 using Blog.Services;
 using Blog.Services.Infrastructure;
+using Blog.Test.Common;
 using Blog.Test.Fake;
-using System.Linq;
+using System;
 using System.Threading.Tasks;
 using Xunit;
 
 namespace Blog.Test.Services
 {
-    public class ArticleServiceTest
+    public class ArticleServiceTest : TestWithData
     {
+
         [Fact]
         public async Task IsByUserShouldReturnTrueWhenArticleByTheSpecificUserExists()
         {
@@ -56,35 +57,37 @@ namespace Blog.Test.Services
             Assert.Equal(2, article.Id);
         }
 
-        private async Task AddFakeArticles(FakeBlogDbContext fakeDb)
+        [Fact]
+        public async Task ChangeVisibilityShouldSetCorrectPublishedOnDate()
         {
-            await fakeDb.Add(new Article
-            {
-                Id = 1,
-                UserId = "1",
-                Title = "Test Article"
-            },
-            new Article
-            {
-                Id = 2,
-                UserId = "2",
-                Title = "Test Article 2",
-                IsPublic = true
-            });
+            //Arenge
+            const int articleId = 1;
+            var articleService = await this.GetArticleService("ChangeVisibility");
+
+            //Act
+            await articleService.ChangeVisibility(articleId);
+
+            //Assert
+            var article  = this.Database.Data.Articles.Find(articleId);
+
+            Assert.NotNull(article);
+            Assert.True(article.IsPublic);
+            Assert.Equal(new DateTime(2020, 1, 1), article.PublishedOn);
         }
+
+       
 
         private async Task<ArticleService> GetArticleService(string databaseName)
         {
-            var db = new FakeBlogDbContext(databaseName);
-
-            await AddFakeArticles(db);
+            await this.InitDatabase(databaseName);
 
             var mapper = new Mapper(new MapperConfiguration(config =>
             {
                 config.AddProfile<ServiceMappingProfile>();
             }));
 
-            return new ArticleService(db.Data, mapper);
+
+            return new ArticleService(this.Database.Data, mapper, new FakeDateTimeService());
         }
 
     }
