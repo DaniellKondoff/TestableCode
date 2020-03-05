@@ -1,6 +1,9 @@
-﻿using Blog.Data.Models;
+﻿using AutoMapper;
+using Blog.Data.Models;
 using Blog.Services;
+using Blog.Services.Infrastructure;
 using Blog.Test.Fake;
+using System.Linq;
 using System.Threading.Tasks;
 using Xunit;
 
@@ -28,7 +31,7 @@ namespace Blog.Test.Services
         {
             //Arenge
             const string databaseName = "ArticlesIsByUserDoesNotExists";
-           
+
             var acticleService = await this.GetArticleService(databaseName);
 
             //Act
@@ -36,6 +39,21 @@ namespace Blog.Test.Services
 
             //Assert
             Assert.False(exist);
+        }
+
+        [Fact]
+        public async Task AllShouldReturnCorrectArticlesWithDefaultParameters()
+        {
+            //Arange
+            var articleService = await this.GetArticleService("AllArticlesWithdefaultparameters");
+
+            //Act
+            var articles = await articleService.All();
+
+            //Assert
+            var article = Assert.Single(articles);
+            Assert.NotNull(article);
+            Assert.Equal(2, article.Id);
         }
 
         private async Task AddFakeArticles(FakeBlogDbContext fakeDb)
@@ -50,7 +68,8 @@ namespace Blog.Test.Services
             {
                 Id = 2,
                 UserId = "2",
-                Title = "Test Article 2"
+                Title = "Test Article 2",
+                IsPublic = true
             });
         }
 
@@ -60,7 +79,13 @@ namespace Blog.Test.Services
 
             await AddFakeArticles(db);
 
-            return new ArticleService(db.Data);
+            var mapper = new Mapper(new MapperConfiguration(config =>
+            {
+                config.AddProfile<ServiceMappingProfile>();
+            }));
+
+            return new ArticleService(db.Data, mapper);
         }
+
     }
 }

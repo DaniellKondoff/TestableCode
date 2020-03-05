@@ -14,10 +14,12 @@
     public class ArticleService : IArticleService
     {
         private readonly BlogDbContext db;
+        private readonly IMapper mapper;
 
-        public ArticleService(BlogDbContext database)
+        public ArticleService(BlogDbContext database, IMapper mapper)
         {
             this.db = database;
+            this.mapper = mapper;
         }
 
         public async Task<IEnumerable<ArticleListingServiceModel>> All(
@@ -43,7 +45,7 @@
                 .OrderByDescending(a => a.PublishedOn)
                 .Skip((page - 1) * pageSize)
                 .Take(pageSize)
-                .ProjectTo<TModel>(Mapper.Configuration)
+                .ProjectTo<TModel>(this.mapper.ConfigurationProvider)
                 .ToListAsync();
         }
 
@@ -59,7 +61,7 @@
                 .Articles
                 .Where(a => a.UserId == userId)
                 .OrderByDescending(a => a.PublishedOn)
-                .ProjectTo<ArticleForUserListingServiceModel>(Mapper.Configuration)
+                .ProjectTo<ArticleForUserListingServiceModel>(this.mapper.ConfigurationProvider)
                 .ToListAsync();
 
         public async Task<bool> IsByUser(int id, string userId)
@@ -71,7 +73,7 @@
             => await this.db
                 .Articles
                 .Where(a => a.Id == id)
-                .ProjectTo<ArticleDetailsServiceModel>(Mapper.Configuration)
+                .ProjectTo<ArticleDetailsServiceModel>(this.mapper.ConfigurationProvider)
                 .FirstOrDefaultAsync();
 
         public async Task<int> Total()
