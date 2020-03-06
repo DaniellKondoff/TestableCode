@@ -1,8 +1,5 @@
 ﻿namespace Blog.Controllers
 {
-    using System;
-    using System.Linq;
-    using System.Threading.Tasks;
     using AutoMapper;
     using Infrastructure;
     using Microsoft.AspNetCore.Authorization;
@@ -10,6 +7,8 @@
     using Microsoft.Extensions.Configuration;
     using Models;
     using Services;
+    using System.Linq;
+    using System.Threading.Tasks;
 
     public class ArticlesController : Controller
     {
@@ -58,13 +57,11 @@
             return this.View(article);
         }
 
-        public async Task<IActionResult> Random()
+        public async Task<IActionResult> Random([FromServices]IRandomService randomService)
         {
             var ids = (await this.articleService.AllIds()).ToList();
 
-            var random = new Random();
-
-            var randomId = ids[random.Next(0, ids.Count)];
+            var randomId = ids[randomService.Next(0, ids.Count)];
 
             return await this.Details(randomId);
         }

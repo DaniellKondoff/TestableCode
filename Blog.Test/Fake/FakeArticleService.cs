@@ -12,7 +12,7 @@ namespace Blog.Test.Fake
     {
         private List<Article> articleData = new List<Article>
         {
-            new Article {Id = 1},
+            new Article {Id = 1, IsPublic = true},
             new Article {Id = 2},
             new Article {Id = 3},
             new Article {Id = 4},
@@ -40,9 +40,9 @@ namespace Blog.Test.Fake
             throw new NotImplementedException();
         }
 
-        public Task<IEnumerable<int>> AllIds()
+        public async Task<IEnumerable<int>> AllIds()
         {
-            throw new NotImplementedException();
+            return await Task.FromResult(this.articleData.Select(a => a.Id));
         }
 
         public Task<IEnumerable<ArticleForUserListingServiceModel>> ByUser(string userId)
@@ -60,9 +60,16 @@ namespace Blog.Test.Fake
             throw new NotImplementedException();
         }
 
-        public Task<ArticleDetailsServiceModel> Details(int id)
+        public async Task<ArticleDetailsServiceModel> Details(int id)
         {
-            throw new NotImplementedException();
+           return await Task.FromResult(this.articleData
+               .Where(a => a.Id == id)
+               .Select(a => new ArticleDetailsServiceModel 
+               {
+                   Id = a.Id,
+                   IsPublic = a.IsPublic
+               })
+               .FirstOrDefault());
         }
 
         public Task Edit(int id, string title, string content)

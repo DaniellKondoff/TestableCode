@@ -60,6 +60,7 @@
                 .AddTransient<IImageService, ImageService>()
                 .AddTransient<IDateTimeService, DateTimeService>()
                 .AddTransient<IFileSystemService, FileSystemService>()
+                .AddSingleton<IRandomService, RandomService>()
                 .AddTransient<IArticleService, ArticleService>();
 
             services
