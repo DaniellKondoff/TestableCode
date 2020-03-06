@@ -1,4 +1,5 @@
-﻿using Blog.Services;
+﻿using Blog.Data.Models;
+using Blog.Services;
 using Blog.Services.Models;
 using System;
 using System.Collections.Generic;
@@ -9,6 +10,15 @@ namespace Blog.Test.Fake
 {
     public class FakeArticleService : IArticleService
     {
+        private List<Article> articleData = new List<Article>
+        {
+            new Article {Id = 1},
+            new Article {Id = 2},
+            new Article {Id = 3},
+            new Article {Id = 4},
+            new Article {Id = 5}
+        };
+
         public Task<int> Add(string title, string content, string userId)
         {
             throw new NotImplementedException();
@@ -16,14 +26,11 @@ namespace Blog.Test.Fake
 
         public async Task<IEnumerable<ArticleListingServiceModel>> All(int page = 1, int pageSize = 12, bool publicOnly = true)
         {
-            var articles = new List<ArticleListingServiceModel>
-            {
-               new ArticleListingServiceModel {Id =1 },
-               new ArticleListingServiceModel {Id =2 },
-               new ArticleListingServiceModel {Id =3 },
-               new ArticleListingServiceModel {Id =4 },
-               new ArticleListingServiceModel {Id =5 }
-            };
+            var articles = this.articleData
+                .Select(a => new ArticleListingServiceModel
+                {
+                    Id = a.Id
+                });
 
             return await Task.FromResult(articles.Take(pageSize));
         }
@@ -68,9 +75,9 @@ namespace Blog.Test.Fake
             throw new NotImplementedException();
         }
 
-        public Task<int> Total()
+        public async Task<int> Total()
         {
-            throw new NotImplementedException();
+            return await Task.FromResult(this.articleData.Count);
         }
     }
 }
