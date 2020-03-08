@@ -8,5 +8,10 @@ namespace Blog.Services
         {
             return File.OpenRead(path);
         }
+
+        public Stream OpenWrite(string path)
+        {
+            return File.OpenWrite(path);
+        }
     }
 }

@@ -10,5 +10,10 @@ namespace Blog.Test.Fake
         {
             return new MemoryStream(Encoding.UTF8.GetBytes(path));
         }
+
+        public Stream OpenWrite(string path)
+        {
+            return new MemoryStream(Encoding.UTF8.GetBytes(path));
+        }
     }
 }

@@ -13,3 +13,10 @@ D:\MyCode\TestableCode\Blog.Data\obj\Debug\netcoreapp3.1\Blog.Data.AssemblyInfo.
 D:\MyCode\TestableCode\Blog.Data\obj\Debug\netcoreapp3.1\Blog.Data.dll
 D:\MyCode\TestableCode\Blog.Data\obj\Debug\netcoreapp3.1\Blog.Data.pdb
 D:\MyCode\TestableCode\Blog.Data\obj\Debug\netcoreapp3.1\Blog.Data.csprojAssemblyReference.cache
+D:\Program Files\GitHub\TestableCode\Blog.Data\bin\Debug\netcoreapp3.1\Blog.Data.deps.json
+D:\Program Files\GitHub\TestableCode\Blog.Data\bin\Debug\netcoreapp3.1\Blog.Data.dll
+D:\Program Files\GitHub\TestableCode\Blog.Data\bin\Debug\netcoreapp3.1\Blog.Data.pdb
+D:\Program Files\GitHub\TestableCode\Blog.Data\obj\Debug\netcoreapp3.1\Blog.Data.AssemblyInfoInputs.cache
+D:\Program Files\GitHub\TestableCode\Blog.Data\obj\Debug\netcoreapp3.1\Blog.Data.AssemblyInfo.cs
+D:\Program Files\GitHub\TestableCode\Blog.Data\obj\Debug\netcoreapp3.1\Blog.Data.dll
+D:\Program Files\GitHub\TestableCode\Blog.Data\obj\Debug\netcoreapp3.1\Blog.Data.pdb
