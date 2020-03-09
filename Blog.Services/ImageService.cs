@@ -28,7 +28,7 @@
             (int optimalWidth, int optimalHeight) = this.CalculateOptimalSize(width, height, imageWidth, imageHeight);
 
             var formatedDestination = $"{destination}_optimized.jpg";
-            await this.imageProcessorService.Resize(formatedDestination, optimalWidth, optimalHeight);
+            await this.imageProcessorService.Resize(destinationPath, formatedDestination, optimalWidth, optimalHeight);
         }
 
 

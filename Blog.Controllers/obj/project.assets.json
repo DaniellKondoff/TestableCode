@@ -2700,7 +2700,7 @@
       ]
     },
     "System.ComponentModel.Primitives/4.3.0": {
-      "sha512": "KMVuoQ+8bMQ/Z59M3s64num5AD74X5YSqVc7ibwGkPTfmmkl2W8VuSxLRJtpw4KzQrSKUgR0BLbF0adPfcTSGQ==",
+      "sha512": "j8GUkCpM8V4d4vhLIIoBLGey2Z5bCkMVNjEZseyAlm4n5arcsJOeI3zkUP+zvZgzsbLTYh4lYeP/ZD/gdIAPrw==",
       "type": "package",
       "path": "system.componentmodel.primitives/4.3.0",
       "files": [
@@ -2738,7 +2738,7 @@
       ]
     },
     "System.ComponentModel.TypeConverter/4.3.0": {
-      "sha512": "HZiP0DwTHJ+C+rdFqP47nBYUh5283kcwXIGY2zOVVhsJmVI/2tYiX2zNRdjRQRHsTox58Ydkec6h0pWSh8wAsw==",
+      "sha512": "16pQ6P+EdhcXzPiEK4kbA953Fu0MNG2ovxTZU81/qsCd1zPRsKc3uif5NgvllCY598k6bI0KUyKW8fanlfaDQg==",
       "type": "package",
       "path": "system.componentmodel.typeconverter/4.3.0",
       "files": [
@@ -5273,7 +5273,7 @@
       ]
     },
     "System.Xml.XmlSerializer/4.3.0": {
-      "sha512": "VShQJhOxgD/5M2Z1IWm1vMaSqlbjo1zdFf8H7Ahte6bTvSUhUko/gDpAVVhGgGgTDeue4QyNg1fu1Zz2GKSEuQ==",
+      "sha512": "MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "type": "package",
       "path": "system.xml.xmlserializer/4.3.0",
       "files": [
@@ -5359,23 +5359,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Kondoff\\.nuget\\packages\\": {},
+    "C:\\Users\\daniel.kondov\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Controllers\\Blog.Controllers.csproj",
+      "projectUniqueName": "D:\\MyCode\\TestableCode\\Blog.Controllers\\Blog.Controllers.csproj",
       "projectName": "Blog.Controllers",
-      "projectPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Controllers\\Blog.Controllers.csproj",
-      "packagesPath": "C:\\Users\\Kondoff\\.nuget\\packages\\",
-      "outputPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Controllers\\obj\\",
+      "projectPath": "D:\\MyCode\\TestableCode\\Blog.Controllers\\Blog.Controllers.csproj",
+      "packagesPath": "C:\\Users\\daniel.kondov\\.nuget\\packages\\",
+      "outputPath": "D:\\MyCode\\TestableCode\\Blog.Controllers\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Kondoff\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\daniel.kondov\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5384,13 +5384,13 @@
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {},
-        "https://dotnet.myget.org/F/roslyn/api/v3/index.json": {}
+        "https://kdi.jfrog.io/kdi/api/nuget/nuget": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "D:\\Program Files\\GitHub\\TestableCode\\Blog.Services\\Blog.Services.csproj": {
-              "projectPath": "D:\\Program Files\\GitHub\\TestableCode\\Blog.Services\\Blog.Services.csproj"
+            "D:\\MyCode\\TestableCode\\Blog.Services\\Blog.Services.csproj": {
+              "projectPath": "D:\\MyCode\\TestableCode\\Blog.Services\\Blog.Services.csproj"
             }
           }
         }
